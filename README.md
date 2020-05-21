@@ -46,7 +46,6 @@ example.
 input name = What's your name?
 print Hello, (name)!
 ```
-
 This will ask for input, and greet the user once they have done so.
 
 # Labels + Goto
@@ -65,10 +64,24 @@ to `goto` to the place where `:top` was called, and thus the cycle continues.
 *In the web editor, type "slow" into the terminal to turn on slowmode. This
 will allow recursive thingies to work without crashing your page.*
 
-
-
-
 # Math functions
 In programming, you will at one point need to use math.  
 Whether it is adding +1, or calculating the chances you will win  
 the lottery, programming would be useless without it.
+
+```
+var a = 12
+set a = (add a 48)
+print (a)
+```
+This should print 50. Pretty basic. There is more than just adding in Corescript  
+of course. Here is an example to show what you can do.
+```
+var a = 100
+
+# 110
+print (add a 10)
+
+# 110
+print (add a 10)
+```
