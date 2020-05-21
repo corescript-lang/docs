@@ -4,7 +4,7 @@ to be a jump-start for people getting into computer programming.
 
 Corescript is not a production language. It is a learning tool.  
 You can write advanced things in Corescript by pushing it to it's  
-limits, but not seriously.
+limits, and we encourage you to do so, but not seriously.
 
 ## Hello World Example
 To start off, let's look at something very simple.  
