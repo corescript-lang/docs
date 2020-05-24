@@ -68,20 +68,33 @@ will allow recursive thingies to work without crashing your page.*
 In programming, you will at one point need to use math.  
 Whether it is adding +1, or calculating the chances you will win  
 the lottery, programming would be useless without it.
-
 ```
 var a = 12
 set a = (add a 48)
 print (a)
 ```
 This should print 50. Pretty basic. There is more than just adding in Corescript  
-of course. Here is an example to show what you can do.
+of course. These are the math functions available:
+* add (+)
+* sub (-)
+* mult (*)
+* div (/)
+* rem (%)
+* rand
+*rand should be used as "min, max". Ex: `print (rand 1 10)`*
+
+Their purpose should be pretty self-explainable.
+
+# If
+If statements are essential in programming.  
+Lets say we want to try and be lucky, and see if our luck  
+can get 1 in a million. We will use the `rand` math function for this.
 ```
-var a = 100
-
-# 110
-print (add a 10)
-
-# 110
-print (add a 10)
+var luckyNumber = 32392
+var guess = (rand 1 1000000)
+if guess = (luckyNumber):correct
+print We did not get the lucky number :(
+stop
+:correct
+print We did it! We got (guess)!
 ```
