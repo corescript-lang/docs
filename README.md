@@ -123,6 +123,20 @@ return helloBack
 
 # If
 If statements are essential in programming.  
+If you want to check if variable `name` is "Jimmy",  
+then you can do this:
+```
+var name = Jimmy
+if name = Jimmy:enter
+print You are not Jimmy...
+stop
+:enter
+print Welcome, Jimmy.
+```
+In this example, if `name` is "Jimmy", then `goto` "enter".  
+If it is not "Jimmy", then nothing will happen, and it will  
+resume to the next line as if nothing happened.
+
 Lets say we want to try and be lucky, and see if our luck  
 can get 1 in a million. We will use the `rand` math function for this.
 ```
