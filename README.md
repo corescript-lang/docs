@@ -85,6 +85,42 @@ of course. These are the math functions available:
 
 Their purpose should be pretty self-explainable.
 
+# Other Commands
+There are some other commands in Corescript I didn't dedicate  
+a section to. The first one being `stop`.
+```
+print 1
+stop
+print 2
+```
+I mean, pretty self-explainable. It stops everything. That example will only  
+print `1`, since `stop` abruptly stopped it before it got a chance to print `2`.  
+
+Another very useful command is `return`. It is used with labels.  
+`return` goes back to the last time the label was used.  
+This excludes when the label was defined. An example explains this best.  
+```
+goto hello
+stop
+
+:hello
+print Hello!
+return hello
+```
+When `goto hello` is called, it runs `print hello`, and since `return` was  
+last used on `goto hello`, it moves back to that line.  
+
+This is not an essential command, but it can be used to avoid this:
+```
+goto hello
+:helloBack
+stop
+
+:hello
+print Hello!
+return helloBack
+```
+
 # If
 If statements are essential in programming.  
 Lets say we want to try and be lucky, and see if our luck  
