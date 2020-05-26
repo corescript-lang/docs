@@ -1,14 +1,8 @@
-# This is 1-10 in classic Corescript
+# 1 to 10, as small as possible.
 var a = 0
-
-:init
-not a = 10:plus
+:top
 if a = 10:kill
-
-:plus
 set a = (add a 1)
 print (a)
-
-goto init
+goto top
 :kill
-stop
