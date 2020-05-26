@@ -1,0 +1,11 @@
+var random = (rand 1 2)
+if random = 1:slash
+if random = 2:backslash
+
+:slash
+print /
+return slash
+
+:backslash
+print \
+return backslash
