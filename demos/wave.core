@@ -1,12 +1,12 @@
-var counter = 6
+var counter = 1
 var sin = (blank)
 
 :topWave
 
-# sin(counter) * 3 + 5
+# sin(counter) * 4 + 6
 set sin = (sin counter)
-set sin = (mult sin 3)
-set sin = (add sin 5)
+set sin = (mult sin 4)
+set sin = (add sin 6)
 
 # "Round" by taking first char
 set sin = (sin[0])
@@ -18,12 +18,12 @@ goto printDash
 print #
 
 # Print remaining sine
-var to = (sub 10 sin)
+var to = (sub 20 sin)
 goto printDash
 
 # Reset
 set sin = (blank)
-set counter = (add counter 1)
+set counter = (add counter 0.7)
 
 print <br>
 goto topWave
