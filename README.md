@@ -1,5 +1,5 @@
 # The Official Corescript Documentation
->Corescript is a bare-bones minimalist computer language designed  
+Corescript is a bare-bones minimalist computer language designed  
 to be a jump-start for people getting into computer programming.
 
 Corescript is not a production language. It is a learning tool.  
