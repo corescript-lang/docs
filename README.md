@@ -29,7 +29,7 @@ To set a variable, use the `set` command.
 set name = John Doe
 ```
 
-## Printing Variables
+## "Raw", and Printing Variables
 Now that we have our cool variable, what do we do with it?  
 Well, you can't eat it, nor can you use it to visit Mars, so  
 let's try to print it to the screen.
@@ -37,8 +37,20 @@ let's try to print it to the screen.
 print Hello, (name)!
 ```
 
+Using parenthesis around variables isn't only used in `print`, but  
+it can also be used in other commands that require strings.
+```
+var name = John
+input question = How are you, (name)?
+print, Cool, goodbye (name).
+```
+
 In Corescript, anything between parenthesis will try to be parsed.  
-If the parsing does not succeed, then it will be left alone, unparsed.
+If the parsing does not succeed, then no nothing will be changed.
+```
+print (This is not a variable.)
+```
+Output: (This is not a variable)
 
 Now that we have a few basic commands down, let's use them to make another  
 example.
@@ -62,9 +74,10 @@ our label text after it. Then we put in our code, and when finished, tell it
 to `goto` to the place where `:top` was called, and thus the cycle continues.
 
 *In the web editor, type "slow" into the terminal to turn on slowmode. This
-will allow recursive thingies to work without crashing your page.*
+will allow recursive things to work without crashing your page.*
 
-# Math functions
+# Functions
+## Math
 In programming, you will at one point need to use math.  
 Whether it is adding +1, or calculating the chances you will win  
 the lottery, programming would be useless without it.
@@ -83,20 +96,16 @@ of course. These are the math functions available:
 * rand
 *rand should be used as "min, max". Ex: `print (rand 1 10)`*
 
-Their purpose should be pretty self-explainable.
+Their purpose should all be pretty self-explainable.
+# Strings
+* len: `len string`
+* char: `char 1 variable`
 
 # Other Commands
 There are some other commands in Corescript I didn't dedicate  
-a section to. The first one being `stop`.
-```
-print 1
-stop
-print 2
-```
-I mean, pretty self-explainable. It stops everything. That example will only  
-print `1`, since `stop` abruptly stopped it before it got a chance to print `2`.  
+a section to. The first one being `return`.
 
-Another very useful command is `return`. It is used with labels.  
+It is used with labels.  
 `return` goes back to the last time the label was used.  
 This excludes when the label was defined. An example explains this best.  
 ```
