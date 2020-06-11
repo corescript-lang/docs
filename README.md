@@ -73,7 +73,7 @@ In that example, we declare a label by using a `:` and putting
 our label text after it. Then we put in our code, and when finished, tell it  
 to `goto` to the place where `:top` was called, and thus the cycle continues.
 
-*In the web editor, type "slow" into the terminal to turn on slowmode. This
+*In the web editor, type "slow" into the terminal to turn on slowmode. This  
 will allow recursive things to work without crashing your page.*
 
 # Functions
