@@ -89,7 +89,7 @@ var a = 12
 set a = (add a 48)
 print (a)
 ```
-This should print 50. Pretty basic. There is more than just adding in Corescript  
+This should print 60. Pretty basic. There is more than just adding in Corescript  
 of course. These are the math functions available:
 * add (+)
 * sub (-)
