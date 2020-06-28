@@ -2,9 +2,9 @@
 "*Corescript is a bare-bones minimalist computer language designed  
 to be a jump-start for people getting into computer programming.*"
 
-Corescript is not a production language. It is a learning tool.  
-You can write advanced things in Corescript by pushing it to it's  
-limits, and we encourage you to do so, but not seriously.  
+Corescript is not a production language. It is a learning and  
+prototyping tool. You can write advanced things in Corescript by  
+pushing it to it's limits, and we encourage you to do so, but not seriously.  
 
 Now that we have that out of the way, welcome to the official  
 Corescript documentation.
