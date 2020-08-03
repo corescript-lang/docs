@@ -1,13 +1,15 @@
 # The Official Corescript Documentation
-"*Corescript is a bare-bones minimalist computer language designed  
-to be a jump-start for people getting into computer programming.*"
+"*Corescript is a bare-bones computer language designed  
+to be a jump-start for people getting into computer programming, a  
+great prototyping tool, and a learning experience implementing  
+the language itself.*"
 
-Corescript is not a production language. It is a learning and  
-prototyping tool. You can write advanced things in Corescript by  
-pushing it to it's limits, and we encourage you to do so, but not seriously.  
+Corescript is not a flexible production language. It is a learning and  
+prototyping tool. It is not meant for advanced projects. Instead, it is  
+designed for simplicity and minimalism.
 
 Now that we have that out of the way, welcome to the official  
-Corescript documentation.
+Corescript programming guide.
 
 ## Hello World Example
 To start off, let's look at something very simple.  
