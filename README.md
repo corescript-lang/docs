@@ -39,21 +39,21 @@ Now that we have our cool variable, what do we do with it?
 Well, you can't eat it, nor can you use it to visit Mars, so  
 let's try to print it to the screen.
 ```
-print Hello, (name)!
+print Hello, [name]!
 ```
 
 Using parenthesis around variables isn't only used in `print`, but  
 it can also be used in other commands that require strings.
 ```
 var name = John
-input question = How are you, (name)?
-print, Cool, goodbye (name).
+input question = How are you, [name]?
+print, Cool, goodbye [name].
 ```
 
 In Corescript, anything between parenthesis will try to be parsed.  
 If the parsing does not succeed, then no nothing will be changed.
 ```
-print (This is not a variable.)
+print [This is not a variable.]
 ```
 Output: (This is not a variable)
 
@@ -61,7 +61,7 @@ Now that we have a few basic commands down, let's use them to make another
 example.
 ```
 input name = What's your name?
-print Hello, (name)!
+print Hello, [name]!
 ```
 This will ask for input, and greet the user once they have done so.
 
@@ -88,8 +88,8 @@ Whether it is adding +1, or calculating the chances you will win
 the lottery, programming would be useless without it.
 ```
 var a = 12
-set a = (add a 48)
-print (a)
+set a = [add a 48]
+print [a]
 ```
 This should print 60. Pretty basic. There is more than just adding in Corescript  
 of course. These are the math functions available:
@@ -99,7 +99,7 @@ of course. These are the math functions available:
 * div (/)
 * rem (%)
 * rand
-*rand should be used as "min, max". Ex: `print (rand 1 10)`*
+*rand should be used as "min, max". Ex: `print [rand 1 10]`*
 
 Their purpose should all be pretty self-explainable.
 # Strings
@@ -155,10 +155,10 @@ Lets say we want to try and be lucky, and see if our luck
 can get 1 in a million. We will use the `rand` math function for this.
 ```
 var luckyNumber = 32392
-var guess = (rand 1 1000000)
-if guess = (luckyNumber):correct
+var guess = [rand 1 1000000]
+if guess = [luckyNumber]:correct
 print We did not get the lucky number :(
 stop
 :correct
-print We did it! We got (guess)!
+print We did it! We got [guess]!
 ```
