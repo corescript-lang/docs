@@ -44,3 +44,6 @@ use `:`. Ex: `if name = Jim:42`
 - Standardized math functions: add, sub, div, mult, rem, rand, sin  
 See: https://github.com/corescript-lang/editor/blob/master/package.js#L143
 - Use # for comments
+
+## August 2020
+- Use [] instead of () for "raw" statements.
