@@ -20,3 +20,12 @@
 - play: `play https://example.com/audio.mp3`
 - stop: halts program
 - button: `button [Start game]=10` (make a text button, goto 10 when pressed)
+
+## January 2018
+- (a new advanced web editor with syntax highlighting was made)
+- `if`, `set`, `var`, and `not` can have spaces around the equal signs.  
+Ex: `var name = Jim`
+- Instead of spaces seperating string and line numbers in `if` and `not` statements,  
+use `:`. Ex: `if name = Jim:42`
+- Added labels. Define them with `:foo`. They can be used in place of line numbers.
+- Comments start with `//` and end with newline
