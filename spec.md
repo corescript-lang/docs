@@ -29,3 +29,18 @@ Ex: `var name = Jim`
 use `:`. Ex: `if name = Jim:42`
 - Added labels. Define them with `:foo`. They can be used in place of line numbers.
 - Comments start with `//` and end with newline
+- Added build-in function `rand` (`print (rand 0 10)`)
+
+## November 2019
+- Allowed multilingual command support. Ex: `imprimir Buenos`
+
+## April 2020
+- Removed all commands except: print, var, if, not, input, goto, set, stop
+- Removed jumping to line numbers, only allow labels
+- Added `return`. Jumps to the last time a label was called (last line + 1).  
+
+## June 2020
+- Removed stop
+- Standardized math functions: add, sub, div, mult, rem, rand, sin  
+See: https://github.com/corescript-lang/editor/blob/master/package.js#L143
+- Use # for comments
