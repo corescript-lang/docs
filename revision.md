@@ -1,4 +1,5 @@
-# Revision and Specification
+# Corescript Programming Language Revision Document
+
 ## April 2017
 - Commands: print, message, set=, printf
 - Run JS code with ()
