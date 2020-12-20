@@ -41,10 +41,11 @@ use `:`. Ex: `if name = Jim:42`
 - Added `return`. Jumps to the last time a label was called (last line + 1).  
 
 ## June 2020
-- Removed stop
+- Removed stop, not
 - Standardized math functions: add, sub, div, mult, rem, rand, sin  
 See: https://github.com/corescript-lang/editor/blob/master/package.js#L143
 - Use # for comments
 
 ## August 2020
 - Use [] instead of () for "raw" statements.
+- Added `>` and `<` for use instead of `=` in `if` statements.
