@@ -46,7 +46,7 @@ it can also be used in other commands that require strings.
 ```
 var name = John
 input question = How are you, [name]?
-print, Cool, goodbye [name].
+print Cool, goodbye [name].
 ```
 
 In Corescript, anything between parenthesis will try to be parsed.  
