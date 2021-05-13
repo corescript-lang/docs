@@ -1,6 +1,6 @@
 # The Official Corescript Documentation
 "*Corescript is a bare-bones minimalist high-level  
-computer language designed to be extremely simple   
+programming language designed to be extremely simple   
 and easy to hack.*"
 
 Corescript is not a flexible production language. It is a learning and  
@@ -9,6 +9,8 @@ designed for simplicity, minimalism, and hackability.
 
 Now that we have that out of the way, welcome to the official  
 Corescript programming guide.
+
+[The Online IDLE](https://corescript-lang.github.io/editor/)
 
 ## Hello World Example
 To start off, let's look at something very simple.  
@@ -78,7 +80,7 @@ our label text after it. Then we put in our code, and when finished, tell it
 to `goto` to the place where `:top` was called, and thus the cycle continues.
 
 *In the web editor, type "slow" into the terminal to turn on slowmode. This  
-will allow recursive things to work without crashing your page.*
+will allow loop to work without crashing your page.*
 
 # Functions
 ## Math
