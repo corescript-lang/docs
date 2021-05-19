@@ -48,4 +48,4 @@ See: https://github.com/corescript-lang/editor/blob/master/package.js#L143
 
 ## August 2020
 - Use [] instead of () for "raw" statements.
-- Added `>` and `<` for use instead of `=` in `if` statements.
+- Added `>` and `<` for use along with `=` in `if` statements.
